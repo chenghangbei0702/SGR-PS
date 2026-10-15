@@ -23,7 +23,7 @@ All auxiliary components are used **only during training**. Inference relies sol
 - PyTorch 1.12+
 - CUDA 11.3+
 
-Main packages: `torch`, `torchvision`, `numpy`, `opencv-python`, `scikit-image`, `pyyaml`, `tqdm`, `tensorboard`.
+Main packages: `torch` `torchvision` `numpy` `opencv-python` `scikit-image` `pyyaml` `tqdm` `tensorboard`.
 
 ---
 
