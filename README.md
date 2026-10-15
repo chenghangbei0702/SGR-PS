@@ -22,11 +22,6 @@ All auxiliary components are used **only during training**. Inference relies sol
 - Python 3.8+
 - PyTorch 1.12+
 - CUDA 11.3+
-- Other dependencies:
-
-```bash
-pip install -r requirements.txt
-```
 
 Main packages: `torch`, `torchvision`, `numpy`, `opencv-python`, `scikit-image`, `pyyaml`, `tqdm`, `tensorboard`.
 
@@ -61,8 +56,8 @@ data/
 Each dataset should contain `images/` and `masks/` subfolders. 
 
 **Pretrained models**:
-- BiomedCLIP: download from [link] 
-- SAM (ViT-B): download from [link] 
+- BiomedCLIP: download from [https://huggingface.co/ZiyueWang/biomedclip] 
+- SAM (ViT-B): download from [https://github.com/facebookresearch/segment-anything] 
 
 ---
 
